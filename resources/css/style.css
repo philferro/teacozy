@@ -85,8 +85,6 @@ nav span {
   display: inline-flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-flow:
-  margin: auto;
   justify-content: space-around;
   width: 1000px;
 }
@@ -96,9 +94,42 @@ nav span {
 }
 
 .locations{
-  display: flex;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-content: center;
+  align-items: center;
+  margin: auto;
   background-image: url("../images/img-locations-background.jpg");
-  height: 500px;
+  height: 700px;
   width: 1200px;
+}
+
+#id="h4Margin"{
+  margin-top: 10px;
+}
+
+footer{
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  width: 100%;
+  height: 300px;
+}
+
+.locationsBox{
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  text-align: center;
+  background-color: black;
+}
+
+#cr{
+  margin-left: 20px;
+  text-align: left;
 }
