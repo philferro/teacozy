@@ -9,8 +9,8 @@ body{
 
 header {
   display: flex;
-  align-items: center;
   position: fixed;
+  top:0px;
   z-index: 1;
   width: 100%;
   height: 69px;
@@ -19,19 +19,18 @@ header {
   border-bottom: 1px solid seashell;
 }
 
-a {
-  color: seashell;
-}
 
-.logo {
+header img {
   display: flex;
-  align-items: left;
+  justify-content: flex-start;
   height: 50px;
-  flex-grow: 1;
   padding-left: 10px;
 }
 
-nav{
+header nav{
+  display: block;
+  text-align: right;
+  flex-grow: 1;
   margin-right: 10px;
 }
 
@@ -41,6 +40,9 @@ nav span {
   text-decoration: underline;
 }
 
+header a{
+  color: seashell;
+}
 .contentBody{
   display: flex;
   margin: auto;
@@ -50,17 +52,19 @@ nav span {
   justify-content: center;
   z-index: 0;
   top: 75px;
-  border: red solid 1px;
+
 }
 
 
-.mission{
+.mission {
   display: flex;
   align-content: center;
   background-image: url("../images/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
 }
+
+
 
 .missionText{
   display: flex;
@@ -69,6 +73,16 @@ nav span {
   text-align: center;
   background-color: black;
   width: 1200px;
+}
+
+.missionText h2{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.missionText h4{
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 
@@ -93,6 +107,11 @@ nav span {
   width: 300px;
 }
 
+teaImages h4{
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
 .locations{
   display: inline-flex;
   flex-direction: row;
@@ -102,12 +121,21 @@ nav span {
   align-items: center;
   margin: auto;
   background-image: url("../images/img-locations-background.jpg");
-  height: 700px;
+  height: 550px;
   width: 1200px;
 }
 
-#id="h4Margin"{
-  margin-top: 10px;
+
+
+.locationsBox{
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  height: 300px;
+  width: 300px;
+  background-color: black;
+
+  opacity: 1;
 }
 
 footer{
@@ -119,15 +147,6 @@ footer{
   height: 300px;
 }
 
-.locationsBox{
-  height: 300px;
-  width: 300px;
-  display: flex;
-  flex-direction: column;
-  margin: auto;
-  text-align: center;
-  background-color: black;
-}
 
 #cr{
   margin-left: 20px;
