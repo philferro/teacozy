@@ -1,0 +1,1 @@
+I am strugggled with how to handle the <H2> Location </H2> using negetive margins, that cannot be right. Also could not get the Location text centered.

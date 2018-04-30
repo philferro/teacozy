@@ -52,7 +52,6 @@ header a{
   justify-content: center;
   z-index: 0;
   top: 75px;
-
 }
 
 
@@ -107,24 +106,18 @@ header a{
   width: 300px;
 }
 
-teaImages h4{
-  margin-top: 22px;
-  margin-bottom: 22px;
-}
+
 
 .locations{
-  display: inline-flex;
+  display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
-  align-content: center;
   align-items: center;
   margin: auto;
   background-image: url("../images/img-locations-background.jpg");
   height: 550px;
   width: 1200px;
 }
-
 
 
 .locationsBox{
@@ -136,6 +129,11 @@ teaImages h4{
   background-color: black;
 
   opacity: 1;
+}
+
+.locationsBox h2{
+  margin-top: -55px;
+  padding-bottom: 15px;
 }
 
 footer{
